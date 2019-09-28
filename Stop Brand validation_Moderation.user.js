@@ -1,11 +1,4 @@
-// ==UserScript==
-// @name         Stop Brand validation_Moderation
-// @match        http://splitter.staging.com.ua/gomer/items/on-moderation/source/*
-// @require      https://unpkg.com/sweetalert/dist/sweetalert.min.js
-// ==/UserScript==
-(function(){
 
-    //Список стоп-брендов
     let stopBrendsNames = ["Lapsi", "Laska", "Le Chat", "LEGO", "Lenor", "Lepin", "Light Stax", "Like.Bike", "Little Live Pets",
                            "Losk", "Magplayer", "Maxmark", "Merrell", "Miqilong", "Motul", "Moulinex", "Nattou", "New Balance", "Noirot",
                            "Nuvita", "Olmo", "Omron", "Oral-B", "Oral-b Braun", "Oribel", "Persil", "Perwoll", "Playmags", "Air Wick",
@@ -35,19 +28,6 @@
           nameItemsSelector = document.querySelectorAll("#sync-sources-container > table > tbody > tr > td:nth-child(4)"),
           nameCategoriesSelector = document.querySelectorAll("#sync-sources-container > table > tbody > tr > td:nth-child(8) > a"),
           bkColorSelectedGoodsSelector = document.querySelectorAll("#sync-sources-container > table > tbody > tr");
-
-    //Оповещение
-    function MessageDialog(counter){
-        if(counter != 0){
-            swal({
-                title: "Найдено Стоп-Брендов: " + counter,
-                icon: "error",
-                text: "Скройте пожалуйста! \n\n Товары уже выделены! \n\n Действия -> Не прошли модерацию",
-                buttons: false,
-                dangerMode: true,
-            })
-        }
-    }
 
     //Сравнение названия со списка стоп-брендов с названием бренда в товаре
     function NameComparison (stopBrendsCounter, nameVendorCounter){
@@ -98,6 +78,5 @@
         }
     }
 
-    StopBrandValidation();
 
 }());
