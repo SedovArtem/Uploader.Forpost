@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Stop Brand validation_Moderation
+// @name         Stop Brand TEST
 // @match        http://splitter.staging.com.ua/gomer/items/on-moderation/source/*
 // @require      https://unpkg.com/sweetalert/dist/sweetalert.min.js
 // ==/UserScript==
