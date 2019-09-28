@@ -6,7 +6,7 @@
 (function(){
 
     //Список стоп-брендов
-    let stopBrendsNames = ["Lapsi", "Laska", "Le Chat", "LEGO", "Lenor", "Lepin", "Light Stax", "Like.Bike", "Little Live Pets",
+    let stopBrendsNames = ["Hasbro", "Laska", "Le Chat", "LEGO", "Lenor", "Lepin", "Light Stax", "Like.Bike", "Little Live Pets",
                            "Losk", "Magplayer", "Maxmark", "Merrell", "Miqilong", "Motul", "Moulinex", "Nattou", "New Balance", "Noirot",
                            "Nuvita", "Olmo", "Omron", "Oral-B", "Oral-b Braun", "Oribel", "Persil", "Perwoll", "Playmags", "Air Wick",
                            "Alpha Industries", "Amazfit", "Ambassador", "Ambassador Fresh", "Ariel", "Auldey", "Avionaut", "BaByliss", "Bayby",
