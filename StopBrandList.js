@@ -1,5 +1,3 @@
-alert("Hello");fsdfsd
-fsdfsdsdf
-sdf
-sd
-
+function start (){
+    alert("Hello");
+}
